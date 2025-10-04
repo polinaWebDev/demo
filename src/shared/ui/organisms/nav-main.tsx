@@ -1,12 +1,12 @@
-"use client"
+'use client'
 
-import { ChevronRight, type LucideIcon } from "lucide-react"
+import { ChevronRight, type LucideIcon } from 'lucide-react'
 
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from "@/shared/ui/molecules/collapsible"
+} from '@/shared/ui/molecules/collapsible'
 import {
   SidebarGroup,
   SidebarGroupLabel,
@@ -16,7 +16,7 @@ import {
   SidebarMenuSub,
   SidebarMenuSubButton,
   SidebarMenuSubItem,
-} from "@/widgets/sidebar"
+} from '@/widgets/sidebar'
 
 export function NavMain({
   items,

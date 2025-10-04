@@ -18,9 +18,7 @@
   "paths": {
     "/posts": {
       "get": {
-        "tags": [
-          "posts"
-        ],
+        "tags": ["posts"],
         "summary": "Returns all posts",
         "responses": {
           "200": {
@@ -36,9 +34,7 @@
         }
       },
       "post": {
-        "tags": [
-          "posts"
-        ],
+        "tags": ["posts"],
         "summary": "Create a new post",
         "requestBody": {
           "content": {
@@ -77,9 +73,7 @@
         }
       ],
       "get": {
-        "tags": [
-          "post"
-        ],
+        "tags": ["post"],
         "summary": "Get a single post",
         "responses": {
           "200": {
@@ -106,9 +100,7 @@
         }
       },
       "put": {
-        "tags": [
-          "post"
-        ],
+        "tags": ["post"],
         "summary": "Update a post",
         "requestBody": {
           "content": {
@@ -145,9 +137,7 @@
         }
       },
       "delete": {
-        "tags": [
-          "post"
-        ],
+        "tags": ["post"],
         "summary": "Delete a post",
         "responses": {
           "200": {

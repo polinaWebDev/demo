@@ -1,4 +1,4 @@
-import { AppSidebar } from "@/shared/ui/organisms/app-sidebar"
+import { AppSidebar } from '@/shared/ui/organisms/app-sidebar'
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -6,13 +6,13 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from "@/shared/ui/molecules/breadcrumb"
-import { Separator } from "@/shared/ui/atoms/separator"
+} from '@/shared/ui/molecules/breadcrumb'
+import { Separator } from '@/shared/ui/atoms/separator'
 import {
   SidebarInset,
   SidebarProvider,
   SidebarTrigger,
-} from "@/widgets/sidebar"
+} from '@/widgets/sidebar'
 
 export default function Page() {
   return (

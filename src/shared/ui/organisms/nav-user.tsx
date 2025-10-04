@@ -1,4 +1,4 @@
-"use client"
+'use client'
 
 import {
   BadgeCheck,
@@ -7,13 +7,9 @@ import {
   CreditCard,
   LogOut,
   Sparkles,
-} from "lucide-react"
+} from 'lucide-react'
 
-import {
-  Avatar,
-  AvatarFallback,
-  AvatarImage,
-} from "@/shared/ui/atoms/avatar"
+import { Avatar, AvatarFallback, AvatarImage } from '@/shared/ui/atoms/avatar'
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -22,13 +18,13 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/shared/ui/molecules/dropdown-menu"
+} from '@/shared/ui/molecules/dropdown-menu'
 import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
   useSidebar,
-} from "@/widgets/sidebar"
+} from '@/widgets/sidebar'
 
 export function NavUser({
   user,
@@ -63,7 +59,7 @@ export function NavUser({
           </DropdownMenuTrigger>
           <DropdownMenuContent
             className="w-(--radix-dropdown-menu-trigger-width) min-w-56 rounded-lg"
-            side={isMobile ? "bottom" : "right"}
+            side={isMobile ? 'bottom' : 'right'}
             align="end"
             sideOffset={4}
           >
